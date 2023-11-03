@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block main %}
+<h1>Login</h1>
+<div style="display:flex;flex-direction:row;align-items:center;justify-content:center;">
+    <button onclick="login()">Login with google</button>
+</div>
+{% endblock main %}
+{% block scripts %}
+<script type="text/javascript">
+function login() {
+    window.location.replace("{{auth_url|safe}}");
+}
+function logout() {
+}
+</script>
+{% endblock scripts %}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% block head %}
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% endblock head %}
+</head>
+<body>
+<header>
+    {% block header %}
+    <div id="content">
+        Welcome
+    </div>
+    {% endblock header %}
+</header>
+<main>
+    {% block main %}
+    {% endblock main %}
+</main>
+{% block scripts %}
+{% endblock scripts %}
+</body>
+</html>

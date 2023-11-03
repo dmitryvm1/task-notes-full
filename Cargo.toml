@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "task-notes-backend",
+    "model",
+    "task-notes-gui"
+]
